@@ -1,0 +1,534 @@
+/*
+Foundation color:
+PANTONE 18-3838 TCX
+Ultra Violet
+18-3838 TCXUltra Violet
+Color values:
+RGB = 95 75 139
+HEX/HTML = 5F4B8B
+*/
+
+body {
+    background-color: #5F4B8B;
+    background-image: url(/images/cartographer.png);
+    /*    font-family: 'Sarala', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+/*GLOBAL*/
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+
+/*HEADER Start*/
+
+header {
+    min-height: 60px;
+    padding-top: 30px;
+}
+
+header .logo {
+    float: left;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+header nav {
+    float: right;
+    font-size: 22px;
+    margin-top: -8px
+}
+
+header a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #CBBD63;
+    transition: .7s ease;
+}
+
+header li {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 5px;
+}
+
+header a:hover {
+    color: #CBBD63;
+    cursor: pointer;
+    transition: .9s;
+}
+
+.logo a:hover {
+    color: #CBBD63;
+    cursor: pointer;
+    transition: .9s;
+}
+
+nav .current a {
+    color: #CBBD63;
+    font-weight: bold;
+}
+
+
+/*HEADER End*/
+
+
+/*myname START*/
+
+.myname {
+    color: #f2f2f2;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    min-height: 140px;
+    text-align: center;
+}
+
+.myname h1 {
+    font-size: 65px;
+    font-weight: 300;
+    margin-bottom: -35px;
+    text-align: center;
+}
+
+.myname h4 {
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.myname p {
+    font-size: 17px;
+    font-weight: 200;
+    margin-top: 40px;
+    min-height: 40px;
+    text-align: center;
+}
+
+
+/*myname END/
+
+
+/*WORK SECTION*/
+
+.work {
+    height: auto;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.box-div {
+    display: inline-block;
+    margin: auto;
+}
+
+
+/*Info Button Start*/
+
+.info-row {
+    margin-top: 25px;
+}
+
+.info-button {
+    background: #f2f2f2;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+    transition: .5s;
+}
+
+.info-button:hover {
+    background: rgb(128, 128, 128);
+    background: #CBBD63;
+    transition: 1s;
+}
+
+.info-icon {
+    height: 20px;
+    margin-top: 3px;
+}
+
+
+/*Info Button End*/
+
+
+/*MODAL CSS START*/
+
+.modal,
+.modal2,
+.modal3,
+.modal4,
+.modal5,
+.modal6 {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.modal-content {
+    animation-duration: 1s;
+    animation-name: modalopen;
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    width: 70%;
+}
+
+.modal-header h2,
+.modal-footer h3 {
+    margin: 0;
+}
+
+.modal-header {
+    background: #5F4B8B;
+    color: #fff;
+    padding: 15px;
+}
+
+.modal-body {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.modal-footer {
+    background: #5F4B8B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.closeBtn,
+.closeBtn2,
+.closeBtn3,
+.closeBtn4,
+.closeBtn5,
+.closeBtn6 {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.closeBtn2:hover,
+.closeBtn2:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.closeBtn3:hover,
+.closeBtn3:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.closeBtn4:hover,
+.closeBtn4:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.closeBtn5:hover,
+.closeBtn5:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.closeBtn6:hover,
+.closeBtn6:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.case_details {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/*MODAL CSS END*/
+
+.work {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work .box {
+    background: #fff;
+    display: inline-block;
+    height: 250px;
+    margin: 20px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.work .box .hoverBox {
+    /*Fallback color*/
+    background: rgb(128, 128, 128);
+    background-color: rgba(203, 189, 99, 0.9);
+    bottom: -100%;
+    height: 100%;
+    padding: 35px 15px;
+    position: relative;
+    text-align: left;
+    transition: all .8s ease;
+}
+
+.work .box:hover .hoverBox {
+    bottom: 0;
+}
+
+.project-title {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.category {
+    color: #f2f2f2;
+    display: inline;
+    font-size: 16px;
+}
+
+
+/* Start site visit Button/icon*/
+
+form {
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    border-style: none;
+    display: block;
+    height: 40px;
+    margin: auto;
+    width: 40px;
+}
+
+.visit-icon {
+    background-color: #1a1a1a;
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 10px;
+    width: 20px;
+}
+
+
+/* End site visit Button/icon*/
+
+
+/*ABOUT PAGE START*/
+
+.mypicture {
+    height: 250px;
+}
+
+.mypicture img {
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+
+/*'SUUUP, YO*/
+
+.mypicture p {
+    color: transparent;
+    font-size: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.mypicture p:hover {
+    color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+    transition: 1s;
+}
+
+
+/*'SUUUP, YO*/
+
+.bio p {
+    color: #f2f2f2;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    min-height: 60px;
+    text-align: center;
+}
+
+
+/*"Let's see if..."*/
+
+.cta a {
+    color: #f2f2f2;
+    font-size: 25px;
+}
+
+
+/*ABOUT PAGE END*/
+
+
+/*CONTACT PAGE START*/
+
+.myname h5 {
+    color: #f2f2f2;
+    font-size: 30px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    text-align: center;
+}
+
+.email_me,
+a {
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.empty {
+    height: 200px;
+}
+
+
+/*CONTACT PAGE END*/
+
+
+/*FOOTER START*/
+
+.footer {
+    color: #f2f2f2;
+    height: 120px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer a {
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.footer_email_link {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.social_container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.social_icon img {
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+}
+
+.column-right {
+    font-size: 12px;
+    padding: 23px;
+    text-align: center;
+}
+
+.icon-credit {
+    margin-top: 17px;
+}
+
+.vertline {
+    border-left: 1px solid;
+    color: #f2f2f2;
+    height: 120px;
+    left: 50%;
+    margin: 0;
+    top: 0;
+}
+
+
+/*FOOTER END*/
+
+
+/* MEDIA QUERIES */
+
+@media(max-width: 768px) {
+    header .logo,
+    header nav,
+    header li,
+    .myname {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    nav {
+        font-size: 17px;
+        margin-left: -25px;
+        margin-right: auto;
+    }
+    .myname h1 {
+        font-size: 45px;
+        margin-top: 0;
+    }
+    .myname h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .myname h5 {
+        font-size: 17px;
+    }
+    .myname p {
+        margin: 17px
+    }
+    .work .box {
+        margin: 15px;
+        width: 325px;
+    }
+    .icon-credit {
+        margin-top: 0;
+    }
+    .empty {
+        height: 50px;
+    }
+}
