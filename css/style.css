@@ -10,7 +10,7 @@ HEX/HTML = 5F4B8B
 
 body {
     background-color: #5F4B8B;
-    background-image: url(/images/cartographer.png);
+    background-image: url(https://jose7fernandez.github.io/j7-portfolio/images/cartographer.png);
     /*    font-family: 'Sarala', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -282,6 +282,7 @@ nav .current a {
     }
 }
 
+
 /*MODAL CSS END*/
 
 .work {
@@ -373,7 +374,7 @@ form {
 .mypicture p {
     color: transparent;
     font-size: 10px;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -397,7 +398,7 @@ form {
 }
 
 
-/*"Let's see if..."*/
+/*"Let's see if we can work together"*/
 
 .cta a {
     color: #f2f2f2;
