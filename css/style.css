@@ -368,24 +368,24 @@ form {
 }
 
 
-/*'SUUUP, YO*/
+/*'SUUUP, YO START*/
 
 .mypicture p {
     color: transparent;
-    font-size: 15px;
+    font-size: 10px;
     margin: 20px;
     text-align: center;
 }
 
 .mypicture p:hover {
     color: #f2f2f2;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
-    transition: 1s;
+    transition: .3s;
 }
 
 
-/*'SUUUP, YO*/
+/*'SUUUP, YO END*/
 
 .bio p {
     color: #f2f2f2;
