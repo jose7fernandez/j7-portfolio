@@ -1,11 +1,11 @@
 var window = window;
 window.onload = function () {
     // Get modal 1 element
-    var modal = document.getElementById('simpleModal');
+    let modal = document.getElementById('simpleModal');
     // Get open modal button
-    var modalButton = document.getElementById('modalButton');
+    let modalButton = document.getElementById('modalButton');
     // Get close button
-    var closeBtn = document.getElementsByClassName('closeBtn')[0];
+    let closeBtn = document.getElementsByClassName('closeBtn')[0];
     // Listen for open click
     modalButton.addEventListener('click', openModal);
     // Listen for close click
@@ -29,11 +29,11 @@ window.onload = function () {
     // END modal 1 element
     //
     // Get modal 2 element
-    var modal2 = document.getElementById('simpleModal2');
+    let modal2 = document.getElementById('simpleModal2');
     // Get open modal button
-    var modalButton2 = document.getElementById('modalButton2');
+    let modalButton2 = document.getElementById('modalButton2');
     // Get close button
-    var closeBtn2 = document.getElementsByClassName('closeBtn2')[0];
+    let closeBtn2 = document.getElementsByClassName('closeBtn2')[0];
     // Listen for open click
     modalButton2.addEventListener('click', openModal2);
     // Listen for close click
@@ -57,11 +57,11 @@ window.onload = function () {
     // END modal 2 element
     //
     // Get modal 3 element
-    var modal3 = document.getElementById('simpleModal3');
+    let modal3 = document.getElementById('simpleModal3');
     // Get open modal button
-    var modalButton3 = document.getElementById('modalButton3');
+    let modalButton3 = document.getElementById('modalButton3');
     // Get close button
-    var closeBtn3 = document.getElementsByClassName('closeBtn3')[0];
+    let closeBtn3 = document.getElementsByClassName('closeBtn3')[0];
     // Listen for open click
     modalButton3.addEventListener('click', openModal3);
     // Listen for close click
@@ -85,11 +85,11 @@ window.onload = function () {
     // END modal 3 element
     //
     // Get modal 4 element
-    var modal4 = document.getElementById('simpleModal4');
+    let modal4 = document.getElementById('simpleModal4');
     // Get open modal button
-    var modalButton4 = document.getElementById('modalButton4');
+    let modalButton4 = document.getElementById('modalButton4');
     // Get close button
-    var closeBtn4 = document.getElementsByClassName('closeBtn4')[0];
+    let closeBtn4 = document.getElementsByClassName('closeBtn4')[0];
     // Listen for open click
     modalButton4.addEventListener('click', openModal4);
     // Listen for close click
@@ -113,11 +113,11 @@ window.onload = function () {
     // END modal 4 element
     //
     // Get modal 5 element
-    var modal5 = document.getElementById('simpleModal5');
+    let modal5 = document.getElementById('simpleModal5');
     // Get open modal button
-    var modalButton5 = document.getElementById('modalButton5');
+    let modalButton5 = document.getElementById('modalButton5');
     // Get close button
-    var closeBtn5 = document.getElementsByClassName('closeBtn5')[0];
+    let closeBtn5 = document.getElementsByClassName('closeBtn5')[0];
     // Listen for open click
     modalButton5.addEventListener('click', openModal5);
     // Listen for close click
@@ -141,11 +141,11 @@ window.onload = function () {
     // END modal 5 element
     //
     // Get modal 6 element
-    var modal6 = document.getElementById('simpleModal6');
+    let modal6 = document.getElementById('simpleModal6');
     // Get open modal button
-    var modalButton6 = document.getElementById('modalButton6');
+    let modalButton6 = document.getElementById('modalButton6');
     // Get close button
-    var closeBtn6 = document.getElementsByClassName('closeBtn6')[0];
+    let closeBtn6 = document.getElementsByClassName('closeBtn6')[0];
     // Listen for open click
     modalButton6.addEventListener('click', openModal6);
     // Listen for close click
