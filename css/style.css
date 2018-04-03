@@ -361,10 +361,12 @@ form {
 
 .mypicture img {
     border-radius: 50%;
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, .50);
     display: block;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     width: 200px;
 }
 
@@ -374,7 +376,7 @@ form {
 .mypicture p {
     color: transparent;
     font-size: 10px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -392,7 +394,7 @@ form {
     color: #f2f2f2;
     font-size: 17px;
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     min-height: 60px;
     text-align: center;
 }
