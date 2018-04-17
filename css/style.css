@@ -335,7 +335,7 @@ nav .current a {
 }
 
 
-/* Start site visit Button/icon*/
+/* Start of Site Visit button/icon*/
 
 form {
     background-color: #1a1a1a;
@@ -356,7 +356,7 @@ form {
 }
 
 
-/* End site visit Button/icon*/
+/* End of Site Visit button/icon*/
 
 
 /*ABOUT PAGE START*/
@@ -403,6 +403,10 @@ form {
     margin-top: 30px;
     min-height: 60px;
     text-align: center;
+}
+
+.freelance-offering {
+    color: #f2f2f2;
 }
 
 
