@@ -491,10 +491,6 @@ a {
     text-align: center;
 }
 
-.icon-credit {
-    margin-top: 17px;
-}
-
 .vertline {
     border-left: 1px solid;
     color: #f2f2f2;
@@ -502,6 +498,10 @@ a {
     left: 50%;
     margin: 0;
     top: 0;
+}
+
+.icon-credit {
+    margin-top: 17px;
 }
 
 
