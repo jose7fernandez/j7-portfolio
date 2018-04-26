@@ -178,7 +178,8 @@ nav .current a {
 .modal3,
 .modal4,
 .modal5,
-.modal6 {
+.modal6,
+.modal7 {
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
     height: 100%;
@@ -226,7 +227,8 @@ nav .current a {
 .closeBtn3,
 .closeBtn4,
 .closeBtn5,
-.closeBtn6 {
+.closeBtn6,
+.closeBtn7 {
     color: #ccc;
     float: right;
     font-size: 30px;
@@ -269,6 +271,13 @@ nav .current a {
 
 .closeBtn6:hover,
 .closeBtn6:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.closeBtn7:hover,
+.closeBtn7:focus {
     color: #000;
     cursor: pointer;
     text-decoration: none;

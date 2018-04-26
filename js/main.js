@@ -167,4 +167,33 @@ window.onload = function () {
         }
     }
     // END modal 6 element
+    //
+    // Get modal 7 element
+    let modal7 = document.getElementById('simpleModal7');
+    // Get open modal button
+    let modalButton7 = document.getElementById('modalButton7');
+    // Get close button
+    let closeBtn7 = document.getElementsByClassName('closeBtn7')[0];
+    // Listen for open click
+    modalButton7.addEventListener('click', openModal7);
+    // Listen for close click
+    closeBtn7.addEventListener('click', closeModal7);
+    // Listen for outside click
+    window.addEventListener('click', outsideClick7);
+    // Function to open modal
+    function openModal7() {
+        modal7.style.display = 'block';
+    }
+    // Function to close modal
+    function closeModal7() {
+        modal7.style.display = 'none';
+    }
+    // Function to close modal if outside click
+    function outsideClick7(e) {
+        if (e.target == modal7) {
+            modal7.style.display = 'none';
+        }
+    }
+    // END modal 7 element
+    //
 }
