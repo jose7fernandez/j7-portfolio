@@ -381,7 +381,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    width: 220px;
+    width: 200px;
 }
 
 
@@ -406,16 +406,18 @@ form {
 
 .bio p {
     color: #f2f2f2;
-    font-size: 17px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     min-height: 60px;
     text-align: center;
 }
 
 .freelance-offering {
     color: #f2f2f2;
+    font-size: 17px;
     list-style-image: url(../images/meeting-24.png);
+    margin-top: -20px
 }
 
 
