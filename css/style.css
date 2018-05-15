@@ -365,7 +365,7 @@ form {
 
 .mypicture img {
     border-radius: 50%;
-    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, .50);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, .50);
     display: block;
     height: 200px;
     margin-left: auto;
