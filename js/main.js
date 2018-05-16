@@ -196,4 +196,29 @@ window.onload = function () {
     }
     // END modal 7 element
     //
+    //
+    //Scroll Reveal
+    //
+    //
+    window.sr = ScrollReveal();
+    sr.reveal('.logo', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '200px'
+    });
+    sr.reveal('.nav', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '100px'
+    });
+    sr.reveal('.jf', {
+        duration: 2000
+        , origin: 'top'
+        , distance: '300px'
+    });
+    sr.reveal('.fdev', {
+        duration: 2000
+        , origin: 'top'
+        , distance: '500px'
+    });
 }
