@@ -297,7 +297,8 @@ nav .current a {
     background: #fff;
     display: inline-block;
     height: 250px;
-    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
     overflow: hidden;
     width: 350px;
 }
