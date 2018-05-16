@@ -319,7 +319,7 @@ nav .current a {
 .work .box .hoverBox {
     /*Fallback color*/
     background: rgb(128, 128, 128);
-    background-color: rgba(203, 189, 99, 0.9);
+    background-color: rgba(13, 13, 13, 0.9);
     bottom: -100%;
     height: 40%;
     padding: 35px 15px;
@@ -569,6 +569,9 @@ a {
     .box6,
     .box7 {
         margin: auto;
+    }
+    form {
+        margin-top: 20%;
     }
     .icon-credit {
         margin-top: 0;
