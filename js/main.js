@@ -221,4 +221,39 @@ window.onload = function () {
         , origin: 'top'
         , distance: '500px'
     });
+    sr.reveal('.box1', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '400px'
+    });
+    sr.reveal('.box2', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '400px'
+    });
+    sr.reveal('.box3', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '400px'
+    });
+    sr.reveal('.box4', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '400px'
+    });
+    sr.reveal('.box5', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '400px'
+    });
+    sr.reveal('.box6', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '400px'
+    });
+    sr.reveal('.box7', {
+        duration: 2000
+        , origin: 'bottom'
+        , distance: '400px'
+    });
 }
