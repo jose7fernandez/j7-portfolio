@@ -339,6 +339,7 @@ nav .current a {
     color: #f2f2f2;
     display: inline;
     font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .visit-button {
@@ -353,10 +354,10 @@ form {
     border-radius: 50%;
     border-style: none;
     display: block;
-    height: 40px;
+    min-height: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 20px;
     width: 40px;
 }
