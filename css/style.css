@@ -296,11 +296,13 @@ nav .current a {
 .work .box {
     background: #fff;
     display: inline-block;
-    height: 250px;
-    margin-left: 0;
+    height: 450px;
+    margin-top: 20px;
     margin-right: 0;
+    margin-bottom: 35px;
+    margin-left: 0;
     overflow: hidden;
-    width: 350px;
+    width: 550px;
 }
 
 .work .box .hoverBox {
