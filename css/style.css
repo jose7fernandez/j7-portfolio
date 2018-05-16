@@ -543,6 +543,7 @@ a {
     }
     .work .box {
         margin: 15px;
+        height: 275px;
         width: 325px;
     }
     .icon-credit {
