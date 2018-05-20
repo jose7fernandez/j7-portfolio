@@ -402,7 +402,11 @@ a {
     text-decoration: none;
 }
 
-.empty {
+.empty-on-index {
+    height: 100px
+}
+
+.empty-on-about {
     height: 200px;
 }
 
@@ -417,7 +421,7 @@ a {
 /*FOOTER START*/
 
 .footer {
-    height: 120px;
+    height: 100px;
     position: absolute;
     width: 100%;
 }
