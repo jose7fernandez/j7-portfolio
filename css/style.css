@@ -22,7 +22,7 @@ header {
 
 .logo img {
     border-radius: 50%;
-    box-shadow: 0 0 15px 5px rgba(255, 255, 255, .50);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .30);
     float: left;
     height: 150px;
     margin: 25px;
@@ -200,7 +200,9 @@ nav .current a {
 .closeBtn5,
 .closeBtn6,
 .closeBtn7 {
-    color: #ccc;
+    border-radius: 50%;
+    background-color: #cc0000;
+    color: #fff;
     float: right;
     font-size: 30px;
 }
@@ -210,6 +212,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .closeBtn2:hover,
@@ -217,6 +220,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .closeBtn3:hover,
@@ -224,6 +228,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .closeBtn4:hover,
@@ -231,6 +236,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .closeBtn5:hover,
@@ -238,6 +244,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .closeBtn6:hover,
@@ -245,6 +252,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .closeBtn7:hover,
@@ -252,6 +260,7 @@ nav .current a {
     color: #000;
     cursor: pointer;
     text-decoration: none;
+    transition: .5s;
 }
 
 .case_details {
