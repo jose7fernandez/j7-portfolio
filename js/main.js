@@ -1,5 +1,92 @@
 var window = window;
 window.onload = function () {
+    //Scroll Reveal
+    //
+    //
+    window.sr = ScrollReveal();
+    sr.reveal('.logo', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '200px'
+    });
+    sr.reveal('.nav', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '100px'
+    });
+    sr.reveal('.jf', {
+        duration: 2000
+        , origin: 'top'
+        , distance: '300px'
+    });
+    sr.reveal('.fdev', {
+        duration: 2000
+        , origin: 'top'
+        , distance: '500px'
+    });
+    sr.reveal('.selected-projects', {
+        duration: 2000
+        , origin: 'top'
+        , distance: '300px'
+    });
+    sr.reveal('.tba', {
+        duration: 2000
+        , origin: 'top'
+        , distance: '500px'
+    });
+    sr.reveal('.box1', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '400px'
+        , mobile: false
+    });
+    sr.reveal('.box2', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '400px'
+        , mobile: false
+    });
+    sr.reveal('.box3', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '400px'
+        , viewFactor: 0.1
+        , mobile: false
+    });
+    sr.reveal('.box4', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '400px'
+        , viewFactor: 0.1
+        , mobile: false
+    });
+    sr.reveal('.box5', {
+        duration: 2000
+        , origin: 'left'
+        , distance: '400px'
+        , viewFactor: 0.1
+        , mobile: false
+    });
+    sr.reveal('.box6', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '400px'
+        , viewFactor: 0.1
+        , mobile: false
+    });
+    sr.reveal('.box7', {
+        duration: 2000
+        , origin: 'bottom'
+        , distance: '400px'
+        , viewFactor: 0.1
+        , mobile: false
+    });
+    sr.reveal('.contactme', {
+        duration: 2000
+        , origin: 'right'
+        , distance: '300px'
+    });
+    //Scroll Reveal END
     // Get modal 1 element
     let modal = document.getElementById('simpleModal');
     // Get open modal button
@@ -197,75 +284,4 @@ window.onload = function () {
     // END modal 7 element
     //
     //
-    //Scroll Reveal
-    //
-    //
-    window.sr = ScrollReveal();
-    sr.reveal('.logo', {
-        duration: 2000
-        , origin: 'right'
-        , distance: '200px'
-    });
-    sr.reveal('.nav', {
-        duration: 2000
-        , origin: 'left'
-        , distance: '100px'
-    });
-    sr.reveal('.jf', {
-        duration: 2000
-        , origin: 'top'
-        , distance: '300px'
-    });
-    sr.reveal('.fdev', {
-        duration: 2000
-        , origin: 'top'
-        , distance: '500px'
-    });
-    sr.reveal('.box1', {
-        duration: 2000
-        , origin: 'left'
-        , distance: '400px'
-        , mobile: false
-    });
-    sr.reveal('.box2', {
-        duration: 2000
-        , origin: 'right'
-        , distance: '400px'
-        , mobile: false
-    });
-    sr.reveal('.box3', {
-        duration: 2000
-        , origin: 'left'
-        , distance: '400px'
-        , viewFactor: 0.1
-        , mobile: false
-    });
-    sr.reveal('.box4', {
-        duration: 2000
-        , origin: 'right'
-        , distance: '400px'
-        , viewFactor: 0.1
-        , mobile: false
-    });
-    sr.reveal('.box5', {
-        duration: 2000
-        , origin: 'left'
-        , distance: '400px'
-        , viewFactor: 0.1
-        , mobile: false
-    });
-    sr.reveal('.box6', {
-        duration: 2000
-        , origin: 'right'
-        , distance: '400px'
-        , viewFactor: 0.1
-        , mobile: false
-    });
-    sr.reveal('.box7', {
-        duration: 2000
-        , origin: 'bottom'
-        , distance: '400px'
-        , viewFactor: 0.1
-        , mobile: false
-    });
 }

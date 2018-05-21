@@ -13,6 +13,9 @@ body {
 }
 
 
+/*INDIVIDUAL PROJECT PAGES*/
+
+
 /*HEADER Start*/
 
 header {
@@ -356,6 +359,16 @@ form {
 
 /*ABOUT PAGE START*/
 
+.logo-about img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .30);
+    float: left;
+    height: 150px;
+    margin: 25px;
+    padding: 0;
+    width: 150px;
+}
+
 .bio p {
     font-size: 21px;
     margin-bottom: 10px;
@@ -377,13 +390,47 @@ form {
 /*ABOUT PAGE END*/
 
 
+/*PROJECT PAGE START*/
+
+.logo-projects img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .30);
+    float: left;
+    height: 150px;
+    margin: 25px;
+    padding: 0;
+    width: 150px;
+}
+
+.selectedprojects {
+    font-family: 'Source Sans Pro';
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: -35px;
+    text-align: center;
+}
+
+
+/*PROJECT PAGE END*/
+
+
 /*CONTACT PAGE START*/
 
-.myname h5 {
+.logo-contact img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .30);
+    float: left;
+    height: 150px;
+    margin: 25px;
+    padding: 0;
+    width: 150px;
+}
+
+.contactme h5 {
     color: #1a1a1a;
     font-family: 'Source Sans Pro';
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 100;
     margin-bottom: 20px;
     min-height: 20px;
     text-align: center;
@@ -397,11 +444,15 @@ a {
 }
 
 .empty-on-index {
-    height: 100px
+    height: 325px
 }
 
 .empty-on-about {
     height: 200px;
+}
+
+.empty-on-project {
+    height: 125px
 }
 
 .empty-on-contact {
@@ -486,6 +537,30 @@ a {
         margin-right: auto;
         width: 100px;
     }
+    header .logo-about img {
+        display: block;
+        float: none;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+    header .logo-contact img {
+        display: block;
+        float: none;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+    header .logo-projects img {
+        display: block;
+        float: none;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
     nav {
         margin-left: -25px;
         margin-right: auto;
@@ -493,6 +568,9 @@ a {
     .myname h1 {
         font-size: 45px;
         margin-top: 0;
+    }
+    .selectedprojects {
+        font-size: 40px;
     }
     .myname h4 {
         font-size: 20px;
