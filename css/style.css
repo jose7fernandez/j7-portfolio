@@ -202,7 +202,7 @@ nav .current a {
 .closeBtn6,
 .closeBtn7 {
     border-radius: 50%;
-    background-color: #cc0000;
+    background-color: #000;
     color: #fff;
     float: right;
     font-size: 30px;
@@ -210,15 +210,13 @@ nav .current a {
 
 .closeBtn:hover,
 .closeBtn:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
+    transition: 1s;
 }
 
 .closeBtn2:hover,
 .closeBtn2:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
     transition: .5s;
@@ -226,7 +224,6 @@ nav .current a {
 
 .closeBtn3:hover,
 .closeBtn3:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
     transition: .5s;
@@ -234,7 +231,6 @@ nav .current a {
 
 .closeBtn4:hover,
 .closeBtn4:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
     transition: .5s;
@@ -242,7 +238,6 @@ nav .current a {
 
 .closeBtn5:hover,
 .closeBtn5:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
     transition: .5s;
@@ -250,7 +245,6 @@ nav .current a {
 
 .closeBtn6:hover,
 .closeBtn6:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
     transition: .5s;
@@ -258,7 +252,6 @@ nav .current a {
 
 .closeBtn7:hover,
 .closeBtn7:focus {
-    color: #000;
     cursor: pointer;
     text-decoration: none;
     transition: .5s;
