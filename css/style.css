@@ -178,6 +178,7 @@ nav .current a {
 .modal-header {
     background-color: #020202;
     color: #fff;
+    font-size: 14px;
     padding: 15px;
 }
 
