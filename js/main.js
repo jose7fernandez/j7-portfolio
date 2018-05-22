@@ -35,13 +35,13 @@ window.onload = function () {
         , distance: '500px'
     });
     sr.reveal('.box1', {
-        duration: 2000
+        duration: 2500
         , origin: 'left'
         , distance: '400px'
         , mobile: false
     });
     sr.reveal('.box2', {
-        duration: 2000
+        duration: 2500
         , origin: 'right'
         , distance: '400px'
         , mobile: false
