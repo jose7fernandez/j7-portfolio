@@ -377,22 +377,6 @@ form {
     text-align: center;
 }
 
-.row-about {
-    display: flex;
-    background-color: aqua;
-}
-
-.column-1 ul li {
-    text-decoration: none
-}
-
-.column-1,
-.column-2 {}
-
-.row-about h4 {
-    text-align: center;
-}
-
 
 /*"Let's see if we can work together"*/
 
