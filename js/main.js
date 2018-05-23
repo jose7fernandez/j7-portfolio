@@ -24,6 +24,11 @@ window.onload = function () {
         , origin: 'top'
         , distance: '500px'
     });
+    sr.reveal('#homefooter', {
+        duration: 2500
+        , origin: 'right'
+        , distance: '800px'
+    });
     sr.reveal('.selected-projects', {
         duration: 2000
         , origin: 'top'
