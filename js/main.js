@@ -27,7 +27,7 @@ window.onload = function () {
     sr.reveal('#homefooter', {
         duration: 2500
         , origin: 'right'
-        , distance: '800px'
+        , distance: '600px'
     });
     sr.reveal('.selected-projects', {
         duration: 2000
