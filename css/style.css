@@ -181,7 +181,7 @@ nav .current a {
 .modal-header {
     background-color: #020202;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     padding: 15px;
 }
 
@@ -209,6 +209,7 @@ nav .current a {
     color: #fff;
     float: right;
     font-size: 30px;
+    margin-top: -7px;
 }
 
 .closeBtn:hover,
