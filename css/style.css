@@ -176,6 +176,7 @@ nav .current a {
 
 .info-row {
     margin-top: 25px;
+    padding-left: 50px
 }
 
 .info-button {
@@ -591,14 +592,17 @@ a {
     .myname p {
         margin: 17px
     }
+    .info-row {
+        padding-left: 35px
+    }
     .info-icon {
-        height: 25px;
+        height: 20px;
     }
     .more-detail {
-        margin-left: -60px;
+        margin-left: -50px;
         margin-bottom: 20px;
-        height: 25px;
-        width: 85px;
+        height: 20px;
+        width: 80px;
     }
     .work .box {
         margin: 15px;
