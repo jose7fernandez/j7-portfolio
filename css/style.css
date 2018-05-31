@@ -591,6 +591,15 @@ a {
     .myname p {
         margin: 17px
     }
+    .info-icon {
+        height: 25px;
+    }
+    .more-detail {
+        margin-left: -60px;
+        margin-bottom: 20px;
+        height: 25px;
+        width: 85px;
+    }
     .work .box {
         margin: 15px;
         height: 300px;
