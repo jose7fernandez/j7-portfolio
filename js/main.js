@@ -97,7 +97,7 @@ window.onload = function () {
     // Get close button
     let closeBtn = document.getElementsByClassName('closeBtn')[0];
     // Listen for open click
-    modalButton.addEventListener('mouseover', openModal);
+    modalButton.addEventListener('click', openModal);
     // Listen for close click
     closeBtn.addEventListener('click', closeModal);
     // Listen for outside click
@@ -125,7 +125,7 @@ window.onload = function () {
     // Get close button
     let closeBtn2 = document.getElementsByClassName('closeBtn2')[0];
     // Listen for open click
-    modalButton2.addEventListener('mouseover', openModal2);
+    modalButton2.addEventListener('click', openModal2);
     // Listen for close click
     closeBtn2.addEventListener('click', closeModal2);
     // Listen for outside click
@@ -153,7 +153,7 @@ window.onload = function () {
     // Get close button
     let closeBtn3 = document.getElementsByClassName('closeBtn3')[0];
     // Listen for open click
-    modalButton3.addEventListener('mouseover', openModal3);
+    modalButton3.addEventListener('click', openModal3);
     // Listen for close click
     closeBtn3.addEventListener('click', closeModal3);
     // Listen for outside click
@@ -181,7 +181,7 @@ window.onload = function () {
     // Get close button
     let closeBtn4 = document.getElementsByClassName('closeBtn4')[0];
     // Listen for open click
-    modalButton4.addEventListener('mouseover', openModal4);
+    modalButton4.addEventListener('click', openModal4);
     // Listen for close click
     closeBtn4.addEventListener('click', closeModal4);
     // Listen for outside click
@@ -209,7 +209,7 @@ window.onload = function () {
     // Get close button
     let closeBtn5 = document.getElementsByClassName('closeBtn5')[0];
     // Listen for open click
-    modalButton5.addEventListener('mouseover', openModal5);
+    modalButton5.addEventListener('click', openModal5);
     // Listen for close click
     closeBtn5.addEventListener('click', closeModal5);
     // Listen for outside click
@@ -237,7 +237,7 @@ window.onload = function () {
     // Get close button
     let closeBtn6 = document.getElementsByClassName('closeBtn6')[0];
     // Listen for open click
-    modalButton6.addEventListener('mouseover', openModal6);
+    modalButton6.addEventListener('click', openModal6);
     // Listen for close click
     closeBtn6.addEventListener('click', closeModal6);
     // Listen for outside click
@@ -265,7 +265,7 @@ window.onload = function () {
     // Get close button
     let closeBtn7 = document.getElementsByClassName('closeBtn7')[0];
     // Listen for open click
-    modalButton7.addEventListener('mouseover', openModal7);
+    modalButton7.addEventListener('click', openModal7);
     // Listen for close click
     closeBtn7.addEventListener('click', closeModal7);
     // Listen for outside click
