@@ -145,7 +145,7 @@ nav .current a {
     font-family: 'Source Sans Pro';
     font-size: 45px;
     font-weight: 100;
-    margin-bottom: -25px;
+    margin-bottom: 25px;
     text-align: center;
 }
 
@@ -175,8 +175,13 @@ nav .current a {
 /*Info Button Start*/
 
 .info-row {
-    margin-top: 25px;
-    padding-left: 50px
+    margin: 2rem;
+    padding-left: 200px;
+}
+
+.info-icon {
+    height: 25px;
+    margin-top: 3px;
 }
 
 .info-button {
@@ -188,20 +193,8 @@ nav .current a {
 }
 
 .info-button:hover {
-    background: rgb(128, 128, 128);
+    background: rgb(255, 255, 255);
     transition: 1s;
-}
-
-.info-icon {
-    height: 30px;
-    margin-top: 3px;
-}
-
-.more-detail {
-    margin-left: -50px;
-    margin-bottom: 25px;
-    height: 35px;
-    width: 95px;
 }
 
 
@@ -384,7 +377,7 @@ nav .current a {
     background: rgb(13, 13, 13);
     background-color: rgba(13, 13, 13, 0.9);
     bottom: -100%;
-    height: 40%;
+    height: 100%;
     padding: 35px 15px;
     position: relative;
     text-align: left;
@@ -578,16 +571,10 @@ a {
         margin: 17px
     }
     .info-row {
-        padding-left: 35px
+        padding-left: 95px
     }
     .info-icon {
         height: 20px;
-    }
-    .more-detail {
-        margin-left: -50px;
-        margin-bottom: 20px;
-        height: 20px;
-        width: 80px;
     }
     .work .box {
         margin: 15px;
@@ -602,9 +589,6 @@ a {
     .box6,
     .box7 {
         margin: auto;
-    }
-    form {
-        margin-top: 20%;
     }
     .icon-credit {
         margin-top: 0;
