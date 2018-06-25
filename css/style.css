@@ -405,37 +405,6 @@ nav .current a {
     margin-bottom: 30px;
 }
 
-.visit-button {
-    margin-top: 100px;
-}
-
-
-/* Start of Site Visit button/icon*/
-
-form {
-    background-color: #1a1a1a;
-    border-radius: 50%;
-    border-style: none;
-    display: block;
-    min-height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    width: 40px;
-}
-
-.visit-icon {
-    background-color: #1a1a1a;
-    height: 20px;
-    margin-left: 6px;
-    margin-top: 10px;
-    width: 20px;
-}
-
-
-/* End of Site Visit button/icon*/
-
 
 /*PROJECT PAGE END*/
 
