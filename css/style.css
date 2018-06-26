@@ -13,9 +13,6 @@ body {
 }
 
 
-/*INDIVIDUAL PROJECT PAGES*/
-
-
 /*HEADER Start*/
 
 header {
@@ -96,37 +93,7 @@ nav .current a {
 
 
 
-/*ABOUT PAGE START*/
 
-.logo-about img {
-    border-radius: 50%;
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .30);
-    float: left;
-    height: 150px;
-    margin: 25px;
-    padding: 0;
-    width: 150px;
-}
-
-.bio p {
-    font-size: 21px;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    min-height: 60px;
-    text-align: center;
-}
-
-
-/*"Let's work together"*/
-
-.cta a {
-    color: #1a1a1a;
-    font-family: 'Source Sans Pro';
-    font-size: 35px;
-}
-
-
-/*ABOUT PAGE END*/
 
 
 /*PROJECT PAGE START*/
@@ -403,6 +370,39 @@ nav .current a {
 
 
 /*MODAL CSS END*/
+
+
+/*ABOUT PAGE START*/
+
+.logo-about img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .30);
+    float: left;
+    height: 150px;
+    margin: 25px;
+    padding: 0;
+    width: 150px;
+}
+
+.bio p {
+    font-size: 21px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    min-height: 60px;
+    text-align: center;
+}
+
+
+/*"Let's work together"*/
+
+.cta a {
+    color: #1a1a1a;
+    font-family: 'Source Sans Pro';
+    font-size: 35px;
+}
+
+
+/*ABOUT PAGE END*/
 
 
 /*CONTACT PAGE START*/
