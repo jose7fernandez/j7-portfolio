@@ -556,12 +556,15 @@ a {
         margin-left: -25px;
         margin-right: auto;
     }
+    .myname {
+        min-height: 80px;
+    }
     .myname h1 {
         font-size: 45px;
         margin-top: 0;
     }
     .selectedprojects {
-        font-size: 40px;
+        font-size: 25px;
     }
     .myname h4 {
         font-size: 20px;
