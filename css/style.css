@@ -139,7 +139,7 @@ nav .current a {
 }
 
 
-/*PROJECTS START*/
+/*PROJECT TILES START*/
 
 .work {
     margin-left: auto;
@@ -190,7 +190,7 @@ nav .current a {
 }
 
 
-/*PROJECTS END*/
+/*PROJECT TILES END*/
 
 
 /*Info Button Start*/
@@ -243,16 +243,11 @@ nav .current a {
 }
 
 .modal-content {
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-name: modalopen;
     background-color: #f4f4f4;
     margin: 20% auto;
     width: 70%;
-}
-
-.modal-header h2,
-.modal-footer h3 {
-    margin: 0;
 }
 
 .modal-header {
@@ -262,9 +257,15 @@ nav .current a {
     padding: 15px;
 }
 
+.modal-header h2,
+.modal-footer h3 {
+    margin: 0;
+}
+
 .modal-body {
     padding: 10px 20px;
     text-align: left;
+    font-size: 18px;
 }
 
 .modal-footer {
@@ -308,50 +309,43 @@ nav .current a {
 .closeBtn:hover,
 .closeBtn:focus {
     cursor: pointer;
-    text-decoration: none;
-    transition: 1s;
+    text-decoration: none
 }
 
 .closeBtn2:hover,
 .closeBtn2:focus {
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
 }
 
 .closeBtn3:hover,
 .closeBtn3:focus {
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
 }
 
 .closeBtn4:hover,
 .closeBtn4:focus {
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
 }
 
 .closeBtn5:hover,
 .closeBtn5:focus {
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
 }
 
 .closeBtn6:hover,
 .closeBtn6:focus {
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
 }
 
 .closeBtn7:hover,
 .closeBtn7:focus {
     cursor: pointer;
     text-decoration: none;
-    transition: .5s;
 }
 
 .case_details {
