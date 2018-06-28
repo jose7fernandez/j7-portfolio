@@ -280,7 +280,7 @@ nav .current a {
     border-radius: 25px;
     color: #fff;
     display: inline-block;
-    padding: 3px 7px;
+    padding: 4px 8px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -289,6 +289,7 @@ nav .current a {
     background-color: #fff;
     color: #000;
     border: 2px solid #000;
+    font-size: 16px;
     transition: .5s ease-in-out;
 }
 
