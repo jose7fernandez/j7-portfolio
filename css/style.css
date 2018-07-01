@@ -132,10 +132,13 @@ nav .current a {
 .box3,
 .box4,
 .box5,
-.box6,
-.box7 {
+.box6 {
     display: inline-block;
     margin: auto;
+}
+
+.box7 {
+    display: none;
 }
 
 
@@ -264,10 +267,17 @@ nav .current a {
     margin: 0;
 }
 
+.case_details {
+    font-size: 16px;
+    font-weight: 200
+    /*    text-decoration: underline;*/
+}
+
 .modal-body {
     padding: 10px 20px;
     text-align: left;
     font-size: 18px;
+    font-weight: 600
 }
 
 .modal-footer {
@@ -350,11 +360,6 @@ nav .current a {
 .closeBtn7:focus {
     cursor: pointer;
     text-decoration: none;
-}
-
-.case_details {
-    font-weight: bold;
-    text-decoration: underline;
 }
 
 @keyframes modalopen {
