@@ -269,7 +269,8 @@ nav .current a {
 
 .case_details {
     font-size: 16px;
-    font-weight: 200
+    font-weight: 200;
+    text-transform: uppercase;
     /*    text-decoration: underline;*/
 }
 
