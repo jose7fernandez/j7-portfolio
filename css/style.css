@@ -177,9 +177,10 @@ nav .current a {
 
 .project-title {
     color: #f2f2f2;
-    font-size: 20px;
+    font-size: 55px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .category {
@@ -197,7 +198,8 @@ nav .current a {
 
 .info-row {
     margin: 2rem;
-    padding-left: 200px;
+    /*    padding-left: 200px;*/
+    text-align: center;
 }
 
 .info-icon {
@@ -572,8 +574,8 @@ a {
     .myname p {
         margin: 17px
     }
-    .info-row {
-        padding-left: 95px
+    .project-title {
+        font-size: 30px;
     }
     .info-icon {
         height: 20px;
