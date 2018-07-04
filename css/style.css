@@ -167,12 +167,10 @@ nav .current a {
 }
 
 .work .box .hoverBox {
-    /*Fallback color*/
-    background: rgb(13, 13, 13);
     background-color: rgba(13, 13, 13, 0.9);
     bottom: -100%;
-    height: 100%;
-    padding: 35px 15px;
+    height: auto;
+    padding: 20px 15px;
     position: relative;
     text-align: left;
     transition: all .9s ease;
@@ -182,7 +180,7 @@ nav .current a {
     color: #f2f2f2;
     font-size: 55px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -579,6 +577,9 @@ a {
     }
     .myname p {
         margin: 17px
+    }
+    .work .box .hoverBox {
+        padding: 10px;
     }
     .project-title {
         font-size: 30px;
