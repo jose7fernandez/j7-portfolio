@@ -516,6 +516,9 @@ a {
 /* MEDIA QUERIES */
 
 @media(max-width: 768px) {
+    .container {
+        widows: 80%;
+    }
     header nav,
     header li,
     .myname {
